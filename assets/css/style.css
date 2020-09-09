@@ -1188,7 +1188,7 @@ section {
 
 .family-tree .tree-node {
   float:left;
-  width: 33%;
+  width: 25%;
   height: 220px;
   position:relative;
 }
@@ -1213,6 +1213,15 @@ section {
 .family-tree .tree-grandparents {
   width: 100%;
   height:50px;
+  display: block;
+  position:relative;
+  margin:5px 0;
+  border-right:1px solid gray;
+}
+
+.family-tree .tree-greatgrandparents {
+  width: 100%;
+  height:25px;
   display: block;
   position:relative;
   margin:5px 0;
