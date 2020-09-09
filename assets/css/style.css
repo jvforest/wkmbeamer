@@ -1234,3 +1234,8 @@ section {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.grecaptcha-badge {
+display: none !important;
+visibility: hidden !important;
+}
